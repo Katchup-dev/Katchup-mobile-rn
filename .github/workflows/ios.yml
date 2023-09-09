@@ -1,9 +1,6 @@
 name: iOS Build
 
 on:
-  push:
-    branches-ignore:
-      - 'main' # 메인 브랜치에 push 할 때는 무시
   pull_request:
     branches:
       - 'develop'
