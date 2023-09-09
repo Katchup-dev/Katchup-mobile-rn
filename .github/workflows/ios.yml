@@ -63,5 +63,4 @@ jobs:
 
       - name: Build App
         run: |
-          cd ios
           xcodebuild -workspace Katchup.xcworkspace -scheme Katchup -sdk iphonesimulator
