@@ -1,5 +1,8 @@
-export const dependencies = {
-  ...(process.env.NO_FLIPPER
-    ? { "react-native-flipper": { platforms: { ios: null } } }
-    : {}),
+module.exports = {
+  // other fields
+  dependencies: {
+    ...(process.env.NO_FLIPPER
+      ? {'react-native-flipper': {platforms: {ios: null}}}
+      : {}),
+  },
 };
