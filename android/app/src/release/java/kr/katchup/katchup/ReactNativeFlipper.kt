@@ -4,17 +4,20 @@
  * <p>This source code is licensed under the MIT license found in the LICENSE file in the root
  * directory of this source tree.
  */
-package kr.katchup.katchup;
+package kr.katchup.katchup
 
-import android.content.Context;
-import com.facebook.react.ReactInstanceManager;
+import android.content.Context
+import com.facebook.react.ReactInstanceManager
 
 /**
  * Class responsible of loading Flipper inside your React Native application. This is the release
  * flavor of it so it's empty as we don't want to load Flipper.
  */
-public class ReactNativeFlipper {
-  public static void initializeFlipper(Context context, ReactInstanceManager reactInstanceManager) {
-    // Do nothing as we don't want to initialize Flipper on Release.
-  }
+class ReactNativeFlipper {
+    companion object {
+        @JvmStatic
+        fun initializeFlipper(context: Context, reactInstanceManager: ReactInstanceManager) {
+            // Do nothing as we don't want to initialize Flipper on Release.
+        }
+    }
 }
