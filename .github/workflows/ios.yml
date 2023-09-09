@@ -11,7 +11,7 @@ on:
 jobs:
   build:
     name: iOS Build
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     defaults:
       run:
         working-directory: ios
