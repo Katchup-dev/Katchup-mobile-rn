@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.katchup"
+    namespace "kr.katchup.katchup"
     defaultConfig {
-        applicationId "com.katchup"
+        applicationId "kr.katchup.katchup"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

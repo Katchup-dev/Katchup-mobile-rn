@@ -1,4 +1,4 @@
-package com.katchup;
+package kr.katchup.katchup;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

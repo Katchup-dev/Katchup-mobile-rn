@@ -1,4 +1,4 @@
-package com.katchup;
+package kr.katchup.katchup;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
