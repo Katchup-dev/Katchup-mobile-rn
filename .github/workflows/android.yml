@@ -59,4 +59,4 @@ jobs:
 
       - name: Build App APK
         run: |
-          cd android && ./gradlew assembleDebug --no-daemon
+          cd android && ./gradlew :app:assembleDebug -PreactNativeArchitectures=x86,x86_64 --no-daemon
