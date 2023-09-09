@@ -59,4 +59,4 @@ jobs:
 
       - name: Build App APK
         run: |
-          cd android && ./gradlew assembleRelease --no-daemon
+          cd android && ./gradlew assembleDebug --no-daemon
