@@ -59,7 +59,7 @@ jobs:
             ${{ runner.os }}-pods-
 
       - name: Install Pods
-        run: pod install --repo-update && cd ..
+        run: bundle exec pod install
 
       - name: Build App
         run: |
