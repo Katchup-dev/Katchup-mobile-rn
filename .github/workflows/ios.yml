@@ -4,6 +4,13 @@ on:
   pull_request:
     branches:
       - 'develop'
+    paths-ignore:
+      - 'docs/**'
+      - '**/*.md'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -22,6 +29,10 @@ jobs:
         with:
           cache: 'yarn'
 
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: 'latest-stable'
+
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -34,6 +45,12 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
+
+      - uses: hendrikmuhs/ccache-action@v1
+        name: Xcode Compile Cache
+        with:
+          key: ${{ runner.os }}-v2 # makes a unique key w/related restore key internally
+          max-size: 1500M
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile --network-timeout 300000
@@ -54,6 +71,9 @@ jobs:
           key: ${{ runner.os }}-pods-${{ hashFiles('ios/Podfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-pods-
+
+      - name: Add Firebase Service
+        run: echo '${{ secrets.GOOGLE_SERVICES_PLIST }}' > ./GoogleService-Info.plist
 
       - name: Install Pods
         run: NO_FLIPPER=1 RCT_NEW_ARCH_ENABLED=1 bundle exec pod install
