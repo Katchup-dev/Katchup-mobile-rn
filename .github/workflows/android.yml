@@ -54,6 +54,9 @@ jobs:
       - name: Change gradlew permissions
         run: cd android && chmod +x ./gradlew
 
+      - name: Add Firebase Service
+        run: echo '${{ secrets.GOOGLE_SERVICES_JSON }}' > ./android/app/google-services.json
+
       - name: Build App APK
         run: |
           cd android && ./gradlew :app:assembleDebug -PreactNativeArchitectures=x86,x86_64 --no-daemon
