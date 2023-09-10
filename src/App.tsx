@@ -8,6 +8,7 @@ import {
 } from 'react-native';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { NavigationContainer } from '@react-navigation/native';
+import NotificationScreen from './setting/NotificationScreen';
 
 const queryClient = new QueryClient();
 
@@ -19,7 +20,7 @@ function App(): ReactElement {
       <QueryClientProvider client={queryClient}>
         <SafeAreaView style={styles.container}>
           <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-          <View style={styles.container} />
+          <NotificationScreen />
         </SafeAreaView>
       </QueryClientProvider>
     </NavigationContainer>
