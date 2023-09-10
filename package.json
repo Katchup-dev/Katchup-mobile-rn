@@ -12,6 +12,7 @@
     "reset": "rm -fr $TMPDIR/react-* && rm -rf $TMPDIR/haste-* && rm -rf $TMPDIR/metro-* && watchman watch-del-all && rm -rf node_modules && yarn install"
   },
   "dependencies": {
+    "@react-native-firebase/app": "18.3.2",
     "@react-navigation/native": "6.1.7",
     "@react-navigation/native-stack": "6.9.13",
     "@tanstack/query-sync-storage-persister": "4.35.0",
