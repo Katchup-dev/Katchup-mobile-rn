@@ -11,6 +11,7 @@
     "reset": "rm -fr $TMPDIR/react-* && rm -rf $TMPDIR/haste-* && rm -rf $TMPDIR/metro-* && watchman watch-del-all && rm -rf node_modules && yarn install"
   },
   "dependencies": {
+    "@tanstack/react-query": "4.35.0",
     "react": "18.2.0",
     "react-native": "0.72.4"
   },
@@ -20,6 +21,7 @@
     "@babel/runtime": "7.22.15",
     "@react-native/eslint-config": "0.72.2",
     "@react-native/metro-config": "0.72.11",
+    "@tanstack/eslint-plugin-query": "4.34.1",
     "@tsconfig/react-native": "3.0.2",
     "@types/react": "18.2.21",
     "@types/react-test-renderer": "18.0.1",
