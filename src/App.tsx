@@ -1,4 +1,4 @@
-import React, {ReactElement} from 'react';
+import React, { ReactElement } from 'react';
 import {
   SafeAreaView,
   StatusBar,
@@ -6,8 +6,8 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
-import {NavigationContainer} from '@react-navigation/native';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { NavigationContainer } from '@react-navigation/native';
 
 const queryClient = new QueryClient();
 
