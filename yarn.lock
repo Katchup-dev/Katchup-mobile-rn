@@ -1993,10 +1993,10 @@
   dependencies:
     "@tanstack/query-persist-client-core" "4.35.3"
 
-"@tanstack/react-query-persist-client@4.35.4":
-  version "4.35.4"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query-persist-client/-/react-query-persist-client-4.35.4.tgz#fcd39819bec050de458f4f4c795ab16881d10538"
-  integrity sha512-7LwC+C4R4wf+YUy1twvunA9eXNNkPpu2r5/fDJgOe6bXpshZB1NYW45eHiepnEyq09aYylPpwFb5M2iNW8L2WQ==
+"@tanstack/react-query-persist-client@4.35.5":
+  version "4.35.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query-persist-client/-/react-query-persist-client-4.35.5.tgz#095258f30382efa643441fb76185bac2c55c9f41"
+  integrity sha512-d8pFzvMD6AD2guGXLP2A4r0mfCRuZ8C4VMBl5+EZvka/e4o9/DRfizZB4S9w0Za+sOQJ4/SdD3OOk2BwYEykkQ==
   dependencies:
     "@tanstack/query-persist-client-core" "4.35.3"
 
