@@ -1185,7 +1185,7 @@ PODS:
     - React-jsi (= 0.72.4)
     - React-logger (= 0.72.4)
     - React-perflogger (= 0.72.4)
-  - RNDateTimePicker (7.5.0):
+  - RNDateTimePicker (7.6.0):
     - hermes-engine
     - RCT-Folly (= 2021.07.22.00)
     - RCTRequired
@@ -1201,10 +1201,10 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNFBApp (18.3.2):
+  - RNFBApp (18.4.0):
     - Firebase/CoreOnly (= 10.14.0)
     - React-Core
-  - RNFBMessaging (18.3.2):
+  - RNFBMessaging (18.4.0):
     - Firebase/Messaging (= 10.14.0)
     - FirebaseCoreExtension (= 10.14.0)
     - React-Core
@@ -1504,9 +1504,9 @@ SPEC CHECKSUMS:
   React-runtimescheduler: 4941cc1b3cf08b792fbf666342c9fc95f1969035
   React-utils: b79f2411931f9d3ea5781404dcbb2fa8a837e13a
   ReactCommon: 4b2bdcb50a3543e1c2b2849ad44533686610826d
-  RNDateTimePicker: a1de6f5499d58405296416f6e172175a06322f12
-  RNFBApp: 0b534885354024f4d171ede8da04521d81bc1767
-  RNFBMessaging: a2ebefff4dd99eba6b16105bbc0b931bfdb0ce74
+  RNDateTimePicker: dfd5d503df5e040aaa1f67a470aa3b3e7d3f1066
+  RNFBApp: a0bc818210d2c452461842f7a0a4e456c11ed831
+  RNFBMessaging: 57ff90f2a60184838da1da7904dfee6b1ce99a20
   RNScreens: cba72a26a6c967765a8388fe85f78e7771012ca1
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 3efc43e0d48686ce2e8c60f99d4e6bd349aff981
