@@ -2160,39 +2160,39 @@
   dependencies:
     "@typescript-eslint/utils" "^5.54.0"
 
-"@tanstack/query-core@5.0.5":
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.0.5.tgz#db02d648398f75a04cc536dacd640265f3614b14"
-  integrity sha512-MThCETMkHDHTnFZHp71L+SqTtD5d6XHftFCVR1xRJdWM3qGrlQ2VCXaj0SKVcyJej2e1Opa2c7iknu1llxCDNQ==
+"@tanstack/query-core@5.4.3":
+  version "5.4.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.4.3.tgz#fbdd36ccf1acf70579980f2e7cf16d2c2aa2a5e9"
+  integrity sha512-fnI9ORjcuLGm1sNrKatKIosRQUpuqcD4SV7RqRSVmj8JSicX2aoMyKryHEBpVQvf6N4PaBVgBxQomjsbsGPssQ==
 
-"@tanstack/query-persist-client-core@5.0.5":
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-persist-client-core/-/query-persist-client-core-5.0.5.tgz#df8af493e30e6fd9f39118daae711e8552ec039c"
-  integrity sha512-xdxDiSN/gBG1QJBiyNZPv2y1DOBMrILvhrEd9PgtOzE1AswmgVUh96KENiD7QiABKCVVIihDtSDvJGj0ukbudg==
+"@tanstack/query-persist-client-core@5.4.3":
+  version "5.4.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-persist-client-core/-/query-persist-client-core-5.4.3.tgz#a63a3013a97e0b7e4d9ef1f97b67bfe6ffa640c1"
+  integrity sha512-0MZazQMVXmmVyf/ce2ug0CoSkT02VA4ZhkT3F1/tIINxGuH2KlhKWQc9puqJzTazUpXfRdBK9+lMPqpkA16FEQ==
   dependencies:
-    "@tanstack/query-core" "5.0.5"
+    "@tanstack/query-core" "5.4.3"
 
-"@tanstack/query-sync-storage-persister@5.0.5":
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-sync-storage-persister/-/query-sync-storage-persister-5.0.5.tgz#e583c800ad7177fb6300d3548cc2ca0fa14af46e"
-  integrity sha512-uk2/mcNf+YYVza3XaU61RSPCcIi/p+0DfsZWMyIim1yCxF7hzZ17zWheM/2v3zZbeTY/C6m1NIO9KIRiPAM9Mg==
+"@tanstack/query-sync-storage-persister@5.4.3":
+  version "5.4.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-sync-storage-persister/-/query-sync-storage-persister-5.4.3.tgz#814f354c0205ac2b2892550ac19ed1bb5cdaf660"
+  integrity sha512-53e2O8lLaeBZ26myG6zQt5Ix16XmkcqJrsrSP2ZZzP5Ii6XwBq061djaEMTNbWYenYpmDqQIxAye/J6zQZ0QiA==
   dependencies:
-    "@tanstack/query-core" "5.0.5"
-    "@tanstack/query-persist-client-core" "5.0.5"
+    "@tanstack/query-core" "5.4.3"
+    "@tanstack/query-persist-client-core" "5.4.3"
 
-"@tanstack/react-query-persist-client@5.0.5":
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query-persist-client/-/react-query-persist-client-5.0.5.tgz#846e231fef61ec3e383d831c78b5757126507ca0"
-  integrity sha512-V/jIKdiw0WyJYpnzwnKS+O19jgJPWSBDzvx9qFaXAm98Jnt+lGWFBZdUR0MgY2ufM1fbeejXTjcorgwqjc3kaA==
+"@tanstack/react-query-persist-client@5.4.3":
+  version "5.4.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query-persist-client/-/react-query-persist-client-5.4.3.tgz#b5dd6a74e26f9035e91478679e5a9ea80b283001"
+  integrity sha512-gpusG6IG6rnmdRT3onSjmRVG60K3BlsdUQifBVeLdi4uen1rvRAiB5a7jr4hFVMItzS9C4jBxJMWt/DmZpy6Ow==
   dependencies:
-    "@tanstack/query-persist-client-core" "5.0.5"
+    "@tanstack/query-persist-client-core" "5.4.3"
 
-"@tanstack/react-query@5.0.5":
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.0.5.tgz#f26e05290f4b6bc9014704a65d05cf0cf47afe6e"
-  integrity sha512-ZG0Q4HZ0iuI8mWiZ2/MdVYPHbrmAVhMn7+gLOkxJh6zLIgCL4luSZlohzN5Xt4MjxfxxWioO1nemwpudaTsmQg==
+"@tanstack/react-query@5.4.3":
+  version "5.4.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.4.3.tgz#cf59120690032e44b8c1c4c463cfb43aaad2fc5f"
+  integrity sha512-4aSOrRNa6yEmf7mws5QPTVMn8Lp7L38tFoTZ0c1ZmhIvbr8GIA0WT7X5N3yz/nuK8hUtjw9cAzBr4BPDZZ+tzA==
   dependencies:
-    "@tanstack/query-core" "5.0.5"
+    "@tanstack/query-core" "5.4.3"
 
 "@tsconfig/react-native@3.0.2":
   version "3.0.2"
