@@ -35,7 +35,7 @@
     "@tanstack/eslint-plugin-query": "5.8.4",
     "@tsconfig/react-native": "3.0.2",
     "@types/react": "18.2.38",
-    "@types/react-test-renderer": "18.0.6",
+    "@types/react-test-renderer": "18.0.7",
     "babel-jest": "29.7.0",
     "eslint": "8.54.0",
     "eslint-config-prettier": "9.0.0",
