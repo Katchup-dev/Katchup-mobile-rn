@@ -27,9 +27,9 @@
     "react-native-screens": "3.27.0"
   },
   "devDependencies": {
-    "@babel/core": "7.23.3",
-    "@babel/preset-env": "7.23.3",
-    "@babel/runtime": "7.23.4",
+    "@babel/core": "7.23.5",
+    "@babel/preset-env": "7.23.5",
+    "@babel/runtime": "7.23.5",
     "@react-native/eslint-config": "0.74.0",
     "@react-native/metro-config": "0.74.0",
     "@tanstack/eslint-plugin-query": "5.8.4",
