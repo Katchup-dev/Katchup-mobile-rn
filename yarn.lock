@@ -2063,10 +2063,10 @@
   dependencies:
     "@sinonjs/commons" "^3.0.0"
 
-"@tanstack/eslint-plugin-query@5.8.4":
-  version "5.8.4"
-  resolved "https://registry.yarnpkg.com/@tanstack/eslint-plugin-query/-/eslint-plugin-query-5.8.4.tgz#2c411eac4e02c6724b9838efc008d5e32e625f87"
-  integrity sha512-KVgcMc+Bn1qbwkxYVWQoiVSNEIN4IAiLj3cUH/SAHT8m8E59Y97o8ON1syp0Rcw094ItG8pEVZFyQuOaH6PDgQ==
+"@tanstack/eslint-plugin-query@5.10.0":
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/eslint-plugin-query/-/eslint-plugin-query-5.10.0.tgz#e8ea1f4678d2de412a92299e29aaeaee2df5b040"
+  integrity sha512-gbvdw5qGfk3/eNUPKq+akR/JUqI6rfEILulUWx2utiMHXmPSRmExCbK7YLGy9yrfK4Mi5njT7UshVX3awlrQbw==
   dependencies:
     "@typescript-eslint/utils" "^5.54.0"
 
@@ -2074,11 +2074,6 @@
   version "5.10.0"
   resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.10.0.tgz#e6fd5abd35f4f51e001bb4e721e1725d6a151805"
   integrity sha512-wlw/l2E+U70iABaJnOtZIJN/5VMhuj4RPViafwUYiIGoqw1VqqqaxBnBL90qLhWswoOaK8RAj3+NiG0duk+cRg==
-
-"@tanstack/query-core@5.8.7":
-  version "5.8.7"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.8.7.tgz#460137555565d478930690f2c992f414da3bec7b"
-  integrity sha512-58xOSkxxZK4SGQ/uzX8MDZHLGZCkxlgkPxnfhxUOL2uchnNHyay2UVcR3mQNMgaMwH1e2l+0n+zfS7+UJ/MAJw==
 
 "@tanstack/query-persist-client-core@5.10.0":
   version "5.10.0"
@@ -2102,12 +2097,12 @@
   dependencies:
     "@tanstack/query-persist-client-core" "5.10.0"
 
-"@tanstack/react-query@5.9.0":
-  version "5.9.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.9.0.tgz#3ca15a593ecf49cec54890a0e8e69250c4a7ed7d"
-  integrity sha512-VlHzMgCISme1DIPrsIQ15Fw/Ou4mTs2pZs8rbHI45ZHkHmwQGBLcUzAgIGDGoneEjRSgXZNd/k3dNSqmtkA20A==
+"@tanstack/react-query@5.10.0":
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.10.0.tgz#7ab248ec8dc4fd4e0d103618d35f119007c4e8e7"
+  integrity sha512-LeJsyXUvhq1TBsEbt3SSEaxP2Att1sv/qW588GL/bvjxPxsLUBWKGuFJ5Z1YP+/nJqVmcXJE8AtvZaaxE9rsKQ==
   dependencies:
-    "@tanstack/query-core" "5.8.7"
+    "@tanstack/query-core" "5.10.0"
 
 "@tsconfig/react-native@3.0.2":
   version "3.0.2"
