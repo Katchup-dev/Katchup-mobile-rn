@@ -3,14 +3,17 @@ package kr.katchup.katchup
 import android.app.Application
 import com.facebook.react.PackageList
 import com.facebook.react.ReactApplication
+import com.facebook.react.ReactHost
 import com.facebook.react.ReactNativeHost
 import com.facebook.react.ReactPackage
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint
+import com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost
 import com.facebook.react.defaults.DefaultReactNativeHost
+import com.facebook.react.flipper.ReactNativeFlipper
 import com.facebook.soloader.SoLoader
 
 class MainApplication : Application(), ReactApplication {
-    private val reactNativeHost = object : DefaultReactNativeHost(this) {
+    override val reactNativeHost: ReactNativeHost = object : DefaultReactNativeHost(this) {
         override fun getPackages(): MutableList<ReactPackage> {
             return PackageList(this).packages
         }
@@ -19,11 +22,9 @@ class MainApplication : Application(), ReactApplication {
 
         override fun getJSMainModuleName() = "index"
 
-        override val isNewArchEnabled: Boolean
-            get() = BuildConfig.IS_NEW_ARCHITECTURE_ENABLED
+        override val isNewArchEnabled: Boolean = BuildConfig.IS_NEW_ARCHITECTURE_ENABLED
 
-        override val isHermesEnabled: Boolean
-            get() = BuildConfig.IS_HERMES_ENABLED
+        override val isHermesEnabled: Boolean = BuildConfig.IS_HERMES_ENABLED
     }
 
     override fun onCreate() {
@@ -35,7 +36,6 @@ class MainApplication : Application(), ReactApplication {
         ReactNativeFlipper.initializeFlipper(this, reactNativeHost.reactInstanceManager)
     }
 
-    override fun getReactNativeHost(): ReactNativeHost {
-        return reactNativeHost
-    }
+    override val reactHost: ReactHost
+        get() = getDefaultReactHost(this.applicationContext, reactNativeHost)
 }
