@@ -2008,12 +2008,12 @@
   dependencies:
     "@sinonjs/commons" "^3.0.0"
 
-"@tanstack/eslint-plugin-query@5.12.1":
-  version "5.12.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/eslint-plugin-query/-/eslint-plugin-query-5.12.1.tgz#4fd1804d32b4378471ad60eec1669745c41d0927"
-  integrity sha512-FuG/mN9cUO8KlT7KJzl8Yiw55uyXz1vzxXfoMnBbgiH8vk5WtUbEMdFeDF4ujgO+VSKR10uDdZ1+TIOpHhDUfQ==
+"@tanstack/eslint-plugin-query@5.14.6":
+  version "5.14.6"
+  resolved "https://registry.yarnpkg.com/@tanstack/eslint-plugin-query/-/eslint-plugin-query-5.14.6.tgz#aef5cabe5a4e156a81f5522c0874f826f71da953"
+  integrity sha512-vpowwoGoB9JgZy8fljf53ZTW2yYLRQ3Tjx4WQFKxiKugQOctxaTjQk7wlYzuqA/gjzfPL9qHfKW5DTT9CmIpkA==
   dependencies:
-    "@typescript-eslint/utils" "^5.54.0"
+    "@typescript-eslint/utils" "^5.62.0"
 
 "@tanstack/query-core@5.14.2":
   version "5.14.2"
@@ -2035,17 +2035,17 @@
     "@tanstack/query-core" "5.14.2"
     "@tanstack/query-persist-client-core" "5.14.2"
 
-"@tanstack/react-query-persist-client@5.14.2":
-  version "5.14.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query-persist-client/-/react-query-persist-client-5.14.2.tgz#35425d6ad081cd6bcc44d64cd27faa7d3d0657e6"
-  integrity sha512-dE/853tW3V4nVPmY25t1jlMzPwHTQ4GzMU1v+0B59An7OZpBVha2o6OpK2p3gcjq6Hv5jLJOlVPIUBStajrIvg==
+"@tanstack/react-query-persist-client@5.14.6":
+  version "5.14.6"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query-persist-client/-/react-query-persist-client-5.14.6.tgz#cab580041f08dad47021d3af2b722360616c7282"
+  integrity sha512-WTIpXDjhvgx/VfzIJFkKBrW7jiUE9C/9zLma++qYS52SkFMbwKUfy7ivnHfJogSMvdG6cZ91xV3/d7Y+hEJbjg==
   dependencies:
     "@tanstack/query-persist-client-core" "5.14.2"
 
-"@tanstack/react-query@5.14.2":
-  version "5.14.2"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.14.2.tgz#b66c9710609118c07bfe6fca0147c6735a4c95a5"
-  integrity sha512-SbOzV7UBW8ED3tOnyn6kqNGscnOAfoxShYlbvaQo/5528mDZKpvrwoL/1du1/ukSC6RMAiKmx95SrYqlwPzWDw==
+"@tanstack/react-query@5.14.6":
+  version "5.14.6"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.14.6.tgz#40d51832d1ca6c9e28d3e48fd44c116d9ce28296"
+  integrity sha512-+INnJdq/904d+K2XQjqdIC58glpNGfQ8Xz93M6WBeJs5FPGFV8SEuFVzPtW/bKZ/Hu7hAiJpbFLDg5Lysvwmuw==
   dependencies:
     "@tanstack/query-core" "5.14.2"
 
@@ -2285,7 +2285,7 @@
     "@typescript-eslint/typescript-estree" "6.15.0"
     semver "^7.5.4"
 
-"@typescript-eslint/utils@^5.10.0", "@typescript-eslint/utils@^5.54.0":
+"@typescript-eslint/utils@^5.10.0", "@typescript-eslint/utils@^5.62.0":
   version "5.62.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.62.0.tgz#141e809c71636e4a75daa39faed2fb5f4b10df86"
   integrity sha512-n8oxjeb5aIbPFEtmQxQYOLI0i9n5ySBEY/ZEHHZqKQSFnxio1rv6dthascc9dLuwrL0RC5mPCxB7vnAVGAYWAQ==
