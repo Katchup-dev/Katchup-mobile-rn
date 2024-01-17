@@ -38,7 +38,7 @@ jobs:
         run: echo "::set-output name=dir::$(yarn cache dir)"
 
       - name: Restore node_modules from cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -62,7 +62,7 @@ jobs:
           bundler-cache: true
 
       - name: Restore Pods cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             ios/Pods
