@@ -1772,10 +1772,10 @@
   dependencies:
     invariant "^2.2.4"
 
-"@react-native-firebase/app@18.7.3":
-  version "18.7.3"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-18.7.3.tgz#e2d7d41b8df6173d270116762638f7e75cca76fe"
-  integrity sha512-KlUuLSCYrBMHXE2Evye1fzrqunUjFEPihxcpzuUyJ5yQyAuCNws7VGdEPIaXoKz1esof0uv8wMSxD+G6W+Vi8Q==
+"@react-native-firebase/app@18.9.0":
+  version "18.9.0"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-18.9.0.tgz#e3c26156ac4f1d12ad5b2c9ce5caf7745204be65"
+  integrity sha512-kMY4HVWxfz0YjQ5n9oyW9uifI5CkQfLfj2FEeQrI9mCwaCNuRw04x9Yc8LeFpew7NPEDVfty7tlL3WEjDpvNEw==
   dependencies:
     opencollective-postinstall "^2.0.3"
     superstruct "^0.6.2"
