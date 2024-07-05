@@ -14,7 +14,7 @@
   "dependencies": {
     "@react-native-community/datetimepicker": "7.6.2",
     "@react-native-firebase/app": "18.9.0",
-    "@react-native-firebase/messaging": "18.7.3",
+    "@react-native-firebase/messaging": "18.9.0",
     "@react-navigation/native": "6.1.17",
     "@react-navigation/native-stack": "6.10.0",
     "@tanstack/query-sync-storage-persister": "5.50.1",
