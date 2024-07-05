@@ -32,7 +32,7 @@
     "@babel/preset-env": "7.24.7",
     "@babel/runtime": "7.24.7",
     "@react-native/eslint-config": "0.74.85",
-    "@react-native/metro-config": "0.74.0",
+    "@react-native/metro-config": "0.74.85",
     "@tanstack/eslint-plugin-query": "5.50.1",
     "@react-native/typescript-config": "0.74.0",
     "@types/react": "18.2.48",
