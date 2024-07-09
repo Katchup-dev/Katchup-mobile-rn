@@ -12,7 +12,7 @@
     "reset": "watchman watch-del-all && rm -rf node_modules && yarn install"
   },
   "dependencies": {
-    "@react-native-community/datetimepicker": "8.1.1",
+    "@react-native-community/datetimepicker": "8.2.0",
     "@react-native-firebase/app": "20.1.0",
     "@react-native-firebase/messaging": "20.1.0",
     "@react-navigation/native": "6.1.17",
